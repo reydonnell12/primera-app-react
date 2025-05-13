@@ -1,0 +1,8 @@
+.im {
+  display: inline-block;
+  flex-direction: row;
+  width: 280px;
+}
+p {
+  text-align: center;
+}
