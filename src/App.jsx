@@ -2,6 +2,7 @@ import rey_atanagildo from "./img/rey_atanagildo.png";
 import rey_leogivildo from "./img/rey_leogivildo.png";
 import rey_sisebuto from "./img/rey_sisebuto.png";
 import rey_ataulfo from "./img/rey_ataulfo.png";
+import conejo from "./img/conejo.jpg";
 
 import "./App.css";
 export const App = () => {
@@ -10,6 +11,7 @@ export const App = () => {
     "rey_leogivildo",
     "rey_atanagildo",
     "rey_ataulfo",
+    "conejo",
   ];
 
   return (
@@ -32,6 +34,11 @@ export const App = () => {
       <div className="im">
         <img src={rey_ataulfo} alt={names[3]} className="im" />
         <p>{names[3]}</p>
+      </div>
+
+      <div className="im">
+        <img src={conejo} alt={names[4]} className="im" />
+        <p>{names[4]}</p>
       </div>
     </>
   );
